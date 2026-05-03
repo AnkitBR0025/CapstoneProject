@@ -59,10 +59,9 @@ const App = () => {
               <h3>Live Preview</h3>
               <button className="close-btn" onClick={() => setShowPreview(false)}>✕ Close</button>
             </div>
-            <div className="modal-body">
-              {/* This one is just for the user to look at */}
+            {/* <div className="modal-body">
               <Preview data={resumeData} /> 
-            </div>
+            </div> */}
           </div>
         </div>
       )}
